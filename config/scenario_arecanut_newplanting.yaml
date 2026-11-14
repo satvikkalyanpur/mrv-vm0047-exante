@@ -1,0 +1,64 @@
+# What-if scenario: the POC parcel treated as a NEW arecanut planting.
+#
+# The real parcel is an established garden and would not qualify as a new
+# ARR project. This file describes a hypothetical: same boundary, same area,
+# planted from bare fallow land on the start date below. Everything here is a
+# project choice or an assumption, and each line says which.
+
+name: Arecanut new planting, Chikkamagaluru parcel (what-if)
+
+site:
+  parcel_geojson: data/parcel.geojson
+  area_ha: 1.27                  # As measured by Earth Engine in the POC (v1.0.0). Polygon cross-check in tests.
+  district: Chikkamagaluru (Malnad), Karnataka, India
+
+timeline:
+  project_start: "2025-06-01"    # ASSUMED date; CITED season. CPCRI recommends planting in May-June. First season after the POC imagery window.
+  as_of: "2026-11-14"            # Date the "so far" figures are reported for.
+  verification_years: [5, 10]    # VM0047 monitoring at most five years apart.
+
+land_at_start:                   # ASSUMED, and it is what makes this a what-if.
+  state: fallow non-forest land
+  preexisting_woody_cover_pct: 0
+  cleared_in_last_10_years: false
+  agricultural_production_displaced: false   # Fallow: nothing displaced, so VMD0054 leakage is zero.
+
+stand:
+  species: Areca catechu
+  spacing_m: 2.7                 # CITED. 2.7 m x 2.7 m square planting (Bhoomika et al. 2023), about 1372 palms/ha.
+  survival_fraction: 1.0         # ASSUMED. No mortality data; see sensitivity.
+  growth_anchor_csv: data/growth_anchor_bhoomika2023.csv   # CITED. Measured height and diameter at age 10, Malnad.
+  anchor_age_years: 10
+  height_growth: linear          # ASSUMED. Height rises linearly from 0 at planting to the measured age-10 height.
+
+establishment:                   # CITED practices: CPCRI, Package of Practices for Arecanut (Extension Pamphlet 2E). Survivor counts are our monitoring step.
+  seedling_age_at_planting_months: "12-18"
+  pre_bearing_years: "5-8"
+  milestones:                    # What happens in the field, by month after planting.
+    0: "Transplant 12-18-month nursery seedlings (5 or more leaves) into 90 cm pits; shade and irrigation start"
+    6: "First dry season: irrigate every 3-5 days, keep shade; count survivors"
+    12: "Year-1 census: count survivors, cull palms under 20 cm girth"
+    17: "Second dry season begins; palms still pre-bearing (bearing starts at 5-8 years)"
+
+biomass:
+  equation: das2021_m2           # CHOICE. See docs/CHANGES_FROM_POC.md. Alternatives: prayogo2018, das2021_m3.
+  root_to_shoot: 0.25            # CITED. Das et al. 2021: 80 % above ground, 20 % below ground, 40 excavated palms.
+
+deductions:                      # Reference case: every deduction at the methodology floor.
+  performance_benchmark: 0.0     # ASSUMED. Needs satellite control plots; 0 gives an upper bound.
+  uncertainty: auto              # max(10 % ex-ante minimum, estimated 90 % CI half-width).
+  leakage_tco2e: 0.0             # Follows from fallow land (no displaced production).
+  project_emissions_tco2e: 0.0   # ASSUMED. No biomass burning; fertiliser emissions not assessed.
+  buffer_rating: 12              # Floor of the AFOLU Non-Permanence Risk Tool. A real rating needs the full tool.
+
+illustrative_case:               # A second case with non-floor deductions, for comparison only.
+  performance_benchmark: 0.13    # The value in VM0047's own worked example (Appendix 1). Not specific to this site.
+  uncertainty: 0.15
+  buffer_rating: 20
+
+sensitivity:                     # One-at-a-time, around the reference case, on 10-year issuable credits.
+  equation: [prayogo2018, das2021_m2, das2021_m3]
+  performance_benchmark: [0.0, 0.13, 0.30]
+  uncertainty: [0.10, 0.15, 0.20]
+  buffer_rating: [12, 20, 30]
+  survival_fraction: [1.0, 0.9, 0.8]

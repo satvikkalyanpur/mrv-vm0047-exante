@@ -1,0 +1,79 @@
+[
+  {
+    "record": "input",
+    "file": "config/vm0047_v1_1.yaml",
+    "sha256": "2b8cd4938b254d244e181f3044e6947cce1080646c2f60fd3bb939eeb497974d",
+    "previous_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+    "hash": "32ea453e45817093acd75e96dafd2cc3b63a674061dbb303f8c99b2bad77a8ed"
+  },
+  {
+    "record": "input",
+    "file": "config/scenario_arecanut_newplanting.yaml",
+    "sha256": "79812d6705d80d36fa978cf2fecb0c63e8743c2d8b83eadc62127cbfaf30c1e1",
+    "previous_hash": "32ea453e45817093acd75e96dafd2cc3b63a674061dbb303f8c99b2bad77a8ed",
+    "hash": "66386304c5345843bc0558d60d8ca5f6d81d46a432dac2e98b191182ca0c1c57"
+  },
+  {
+    "record": "input",
+    "file": "data/growth_anchor_bhoomika2023.csv",
+    "sha256": "6e2cadaae0767b1708c3c25aea0d6062ca9996070c28b2cbaef9a45047c57f2e",
+    "previous_hash": "66386304c5345843bc0558d60d8ca5f6d81d46a432dac2e98b191182ca0c1c57",
+    "hash": "47f3d62d68af310cc704b51b7b2d3114bb689aa6acfc8ef5117afbda1b195e45"
+  },
+  {
+    "record": "input",
+    "file": "data/parcel.geojson",
+    "sha256": "9fd72fc8c10e58468d0bc11a816f4cbff61064a9ce85808c7ccde10b83ca4b07",
+    "previous_hash": "47f3d62d68af310cc704b51b7b2d3114bb689aa6acfc8ef5117afbda1b195e45",
+    "hash": "73fc2fcb027b813d59c86e12dcc82a93ddff182e34e2ab38486c89f26d4f5bb0"
+  },
+  {
+    "record": "input",
+    "file": "data/reference_stands.csv",
+    "sha256": "3b8ca03e57eaf8f4f99da10138cfe27a07b3ce157dea59d293163c2b44d01249",
+    "previous_hash": "73fc2fcb027b813d59c86e12dcc82a93ddff182e34e2ab38486c89f26d4f5bb0",
+    "hash": "3e3025335b9f7361bde3e1749ebf4f89e54f793cf1037d0c63c4c1fdb3e501ce"
+  },
+  {
+    "record": "result",
+    "name": "stock_change_tco2e",
+    "value": 54.4333,
+    "previous_hash": "3e3025335b9f7361bde3e1749ebf4f89e54f793cf1037d0c63c4c1fdb3e501ce",
+    "hash": "72139a7baa670ca1f00900f2461c685fb6abd8952c8f698d9d35e1984b38a517"
+  },
+  {
+    "record": "result",
+    "name": "uncertainty_deducted",
+    "value": 0.1,
+    "previous_hash": "72139a7baa670ca1f00900f2461c685fb6abd8952c8f698d9d35e1984b38a517",
+    "hash": "b7cc7c2092dd42d98a77f26c6e35f6cd252550677f2cc3eed947eee3831e75d4"
+  },
+  {
+    "record": "result",
+    "name": "performance_benchmark",
+    "value": 0.0,
+    "previous_hash": "b7cc7c2092dd42d98a77f26c6e35f6cd252550677f2cc3eed947eee3831e75d4",
+    "hash": "c61a73a4a8e6bb203a6c8f58f8ae9812c71a8b751c4e0de96ebc93c47e3eecf6"
+  },
+  {
+    "record": "result",
+    "name": "buffer_fraction",
+    "value": 0.12,
+    "previous_hash": "c61a73a4a8e6bb203a6c8f58f8ae9812c71a8b751c4e0de96ebc93c47e3eecf6",
+    "hash": "4b378c3d1a6dcb0a63292a38f1c7d746e65c0b0f530e96700cda4d7aea2fe9ab"
+  },
+  {
+    "record": "result",
+    "name": "net_removals_tco2e",
+    "value": 48.99,
+    "previous_hash": "4b378c3d1a6dcb0a63292a38f1c7d746e65c0b0f530e96700cda4d7aea2fe9ab",
+    "hash": "6277a696bb4b89657a0b40492c183130c6c629a7402f9acba0a028207dfe62c1"
+  },
+  {
+    "record": "result",
+    "name": "credits_issuable",
+    "value": 43.1112,
+    "previous_hash": "6277a696bb4b89657a0b40492c183130c6c629a7402f9acba0a028207dfe62c1",
+    "hash": "070e1284af7dffeed55f524883617fc195f9fb49c4c001a46221e470e56c7f1a"
+  }
+]

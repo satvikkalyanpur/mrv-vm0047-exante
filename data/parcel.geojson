@@ -1,0 +1,22 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "POC parcel, Chikkamagaluru (Malnad), Karnataka",
+        "note": "Same polygon as mrv-reference-pipeline v1.0.0 (doi:10.5281/zenodo.22026520)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [75.7583337, 13.4004903],
+          [75.7581502, 13.3995258],
+          [75.7593232, 13.3995341],
+          [75.7594960, 13.4003524],
+          [75.7583337, 13.4004903]
+        ]]
+      }
+    }
+  ]
+}

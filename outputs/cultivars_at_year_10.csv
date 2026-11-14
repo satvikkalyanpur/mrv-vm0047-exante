@@ -1,0 +1,9 @@
+cultivar,height_m,stem_diameter_cm,agb_kg_per_palm,bgb_kg_per_palm,carbon_t_per_ha,co2e_t_per_ha,within_equation_range
+Thirthahalli local,7.2500,17.1000,12.8526,3.2131,10.3579,37.9789,True
+Sagara local,7.6400,16.8800,13.9882,3.4971,11.2731,41.3347,True
+Tarikere local,8.2400,14.6800,15.8060,3.9515,12.7380,46.7062,True
+SAS-1,9.0200,17.3800,18.2935,4.5734,14.7427,54.0567,True
+Mangala,7.0600,11.7800,12.3127,3.0782,9.9228,36.3835,True
+Sumangala,7.2100,15.9200,12.7382,3.1845,10.2657,37.6408,True
+Sreemangala,8.0200,15.5600,15.1297,3.7824,12.1930,44.7076,True
+Mohit Nagar,7.9500,16.4700,14.9169,3.7292,12.0215,44.0787,True

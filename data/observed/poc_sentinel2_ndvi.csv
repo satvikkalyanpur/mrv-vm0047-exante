@@ -1,0 +1,2 @@
+period_start,period_end,sensor,resolution_m,statistic,ndvi,source
+2024-11-01,2025-03-31,Sentinel-2 SR (COPERNICUS/S2_SR_HARMONIZED),10,parcel mean of cloud-filtered median composite,0.873,mrv-reference-pipeline v1.0.0 (doi:10.5281/zenodo.22026520)

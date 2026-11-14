@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "mrv-vm0047-exante: a VM0047 rule engine and ex-ante credit estimator for smallholder agroforestry"
+type: software
+version: 0.2.0
+date-released: 2026-11-14
+license: MIT
+repository-code: "https://github.com/satvikkalyanpur/mrv-vm0047-exante"
+authors:
+  - family-names: Kalyanpur
+    given-names: Satvik
+  - family-names: Purushotham
+    given-names: Dhruv
+  - family-names: "D B"
+    given-names: Abhay
+  - family-names: Rafiq
+    given-names: Soha
+references:
+  - type: software
+    title: "mrv-reference-pipeline (proof of concept)"
+    doi: 10.5281/zenodo.22026520
+    authors:
+      - family-names: Kalyanpur
+        given-names: Satvik

@@ -1,0 +1,91 @@
+{
+  "reference_case": {
+    "scenario": "Arecanut new planting, Chikkamagaluru parcel (what-if)",
+    "methodology": "VM0047 v1.1",
+    "approach": "area-based",
+    "equation": "das2021_m2",
+    "area_ha": 1.27,
+    "palms_per_ha": 1371.7421124828531,
+    "horizon_years": 10,
+    "performance_benchmark": 0.0,
+    "uncertainty_estimated": 0.09158417462521108,
+    "uncertainty_deducted": 0.1,
+    "buffer_fraction": 0.12,
+    "stock_change_tco2e": 54.43334665178137,
+    "after_benchmark_and_uncertainty_tco2e": 48.990011986603236,
+    "leakage_tco2e": 0.0,
+    "net_removals_tco2e": 48.990011986603236,
+    "buffer_tco2e": 5.8788014383923874,
+    "credits_issuable": 43.11121054821085,
+    "credits_per_ha_per_year": 3.394583507733137,
+    "as_of": "2026-11-14",
+    "years_elapsed": 1.4537987679671458,
+    "stock_change_to_date_tco2e": 2.412525871742822,
+    "credits_accrued_to_date": 1.910720490420315,
+    "credits_issued_to_date": 0.0
+  },
+  "illustrative_case": {
+    "scenario": "Arecanut new planting, Chikkamagaluru parcel (what-if)",
+    "methodology": "VM0047 v1.1",
+    "approach": "area-based",
+    "equation": "das2021_m2",
+    "area_ha": 1.27,
+    "palms_per_ha": 1371.7421124828531,
+    "horizon_years": 10,
+    "performance_benchmark": 0.13,
+    "uncertainty_estimated": 0.09158417462521108,
+    "uncertainty_deducted": 0.15,
+    "buffer_fraction": 0.2,
+    "stock_change_tco2e": 54.43334665178137,
+    "after_benchmark_and_uncertainty_tco2e": 40.25345984899232,
+    "leakage_tco2e": 0.0,
+    "net_removals_tco2e": 40.25345984899232,
+    "buffer_tco2e": 8.050691969798464,
+    "credits_issuable": 32.20276787919386,
+    "credits_per_ha_per_year": 2.535651014109752,
+    "as_of": "2026-11-14",
+    "years_elapsed": 1.4537987679671458,
+    "stock_change_to_date_tco2e": 2.412525871742822,
+    "credits_accrued_to_date": 1.4272503057230534,
+    "credits_issued_to_date": 0.0
+  },
+  "cropland_alternative": {
+    "new_land_ha": 0.381,
+    "removals_before_leakage_tco2e": 48.990011986603236,
+    "breakeven_carbon_stock_tc_per_ha": 35.06801144320535
+  },
+  "approach_reason": "1372 planting units/ha exceeds the census limit of 50/ha, and the planting forms continuous cover over 1.27 ha.",
+  "checks": [
+    {
+      "rule": "Project activity increases vegetative cover",
+      "status": "pass",
+      "note": "Scenario assumes 0 % woody cover at the start. The real parcel is an established garden, so this holds only for the what-if."
+    },
+    {
+      "rule": "No clearing of woody vegetation in the 10 years before the start",
+      "status": "pass",
+      "note": "Assumed in the scenario; a real project shows it with a 10-year stocking-index record."
+    },
+    {
+      "rule": "Leakage from displaced production (VMD0054)",
+      "status": "pass",
+      "note": "Fallow land: no production displaced, so leakage is zero."
+    },
+    {
+      "rule": "Additionality step 1: regulatory surplus",
+      "status": "not shown",
+      "note": "Needs a check that no law or programme requires the planting."
+    },
+    {
+      "rule": "Additionality step 2: performance benchmark",
+      "status": "not shown",
+      "note": "Needs at least 30 project plots and matched control plots from satellite data, re-tested at every verification."
+    },
+    {
+      "rule": "Additionality step 3: investment barrier",
+      "status": "not shown",
+      "note": "Arecanut earns nut revenue, so an investment analysis is required. A profitable cash crop is hard to show as dependent on carbon finance."
+    }
+  ],
+  "ledger_head": "070e1284af7dffeed55f524883617fc195f9fb49c4c001a46221e470e56c7f1a"
+}
