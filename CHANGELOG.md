@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.2.1 (2026-11-15)
+
+- Planting date moved from June 2025 to June 2026, the season in which the proof of concept was built. "So far" now covers 5 months (0.25 credits accrued, none issued). The ten-year total is unchanged (43.1); verifications fall in 2031 and 2036.
+
 ## 0.2.0 (2026-11-14)
 - The plot: boundary figure with side lengths, and a satellite map in the notebook.
 - So far: month-by-month table and chart from planting to the as-of date, with CPCRI field stages.

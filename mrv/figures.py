@@ -184,7 +184,7 @@ def progress_so_far(progress: pd.DataFrame, as_of: str, ax=None):
         _, ax = plt.subplots(figsize=(9, 4.2))
     _style(ax)
     ax.bar(progress.month, progress.credits_accrued, color=TEAL, width=0.7)
-    marks = sorted(set([6, 12, int(progress.month.max())]) & set(progress.month))
+    marks = sorted(set([3, 6, 12, int(progress.month.max())]) & set(progress.month))
     for m in marks:
         row = progress[progress.month == m].iloc[0]
         ax.text(m + 0.38, row.credits_accrued + progress.credits_accrued.max() * 0.03,

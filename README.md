@@ -2,7 +2,7 @@
 
 A small, tested Python engine that applies Verra's **VM0047 v1.1** rules (Afforestation, Reforestation, and Revegetation) to a planting and reports how many carbon credits it could earn, month by month so far and year by year ahead, with every deduction shown.
 
-It is run on the 1.27 ha parcel from our proof of concept ([mrv-reference-pipeline](https://github.com/satvikkalyanpur/mrv-reference-pipeline), doi:10.5281/zenodo.22026520), treated as a **new arecanut planting** made in June 2025.
+It is run on the 1.27 ha parcel from our proof of concept ([mrv-reference-pipeline](https://github.com/satvikkalyanpur/mrv-reference-pipeline), doi:10.5281/zenodo.22026520), treated as a **new arecanut planting** made in June 2026, the planting season in which the proof of concept was built.
 
 > **Scope.** The plot is real; the planting is a what-if. The real plot is an established garden, which VM0047 would not credit as a new project. Tree sizes are measured values from a Malnad field trial, not measurements of this plot. The engine estimates credits; it does not issue them. Only a registry issues credits, after an accredited verifier has checked field measurements.
 
@@ -14,20 +14,19 @@ Chikkamagaluru (Malnad), Karnataka, near 13.400° N, 75.759° E. The notebook al
 
 One satellite measurement of this plot already exists: mean NDVI 0.873 from Sentinel-2 for November 2024 to March 2025 (proof of concept), which is dense, established canopy. Rainfall and greenness since then can be added with one command; see [Observed record](#observed-record).
 
-## So far: 17 months since planting
+## So far: 5 months since planting
 
 1,742 palms at 2.7 m × 2.7 m, transplanted as 12 to 18-month nursery seedlings in the May to June planting season (CPCRI practice).
 
 | Month | Date | Palm height gained | Carbon stored, t CO₂e | Credits accrued | Credits issued |
 |---|---|---|---|---|---|
-| 0 | Jun 2025 | 0 m | 0 | 0 | 0 |
-| 6 | Dec 2025 | 0.39 m | 0.43 | 0.34 | 0 |
-| 12 | Jun 2026 | 0.78 m | 1.32 | 1.04 | 0 |
-| 17 | Nov 2026 | 1.10 m | 2.31 | 1.83 | 0 |
+| 0 | Jun 2026 | 0 m | 0 | 0 | 0 |
+| 3 | Sep 2026 | 0.19 m | 0.14 | 0.11 | 0 |
+| 5 | Nov 2026 | 0.32 m | 0.32 | 0.25 | 0 |
 
 ![So far](outputs/figure_progress_so_far.png)
 
-This is what a young plantation realistically looks like: almost nothing in the first year and a half, and nothing issued until the first verification. These early figures are modelled and indicative, because palms this small are far below the height range of the biomass equation.
+This is what a young plantation realistically looks like: almost nothing in the first months, and nothing issued until the first verification. These early figures are modelled and indicative, because palms this small are far below the height range of the biomass equation.
 
 ## Expected: ten years
 
@@ -116,7 +115,7 @@ These two collectors have not yet been run against the live services: the parsin
 | Palm height and diameter at age 10 | Cited: measured at Thirthahalli, Malnad (Bhoomika et al. 2023) |
 | Biomass equation and root share | Cited: Das et al. 2021, India |
 | Spacing, planting season, seedling age, field stages | Cited: CPCRI package of practices |
-| Planting on fallow land in June 2025 | Assumed: this is what makes it a what-if |
+| Planting on fallow land in June 2026 | Assumed: this is what makes it a what-if |
 | Growth between planting and year 10 | Assumed: linear height growth |
 | Palm survival of 100 % | Assumed: no mortality data |
 | Performance benchmark of 0 | Assumed: needs satellite control plots |

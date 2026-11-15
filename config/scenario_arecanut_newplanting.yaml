@@ -13,8 +13,8 @@ site:
   district: Chikkamagaluru (Malnad), Karnataka, India
 
 timeline:
-  project_start: "2025-06-01"    # ASSUMED date; CITED season. CPCRI recommends planting in May-June. First season after the POC imagery window.
-  as_of: "2026-11-14"            # Date the "so far" figures are reported for.
+  project_start: "2026-06-01"    # ASSUMED date; CITED season. CPCRI recommends planting in May-June. The planting season in which the proof of concept was built (repository created 2 July 2026).
+  as_of: "2026-11-15"            # Date the "so far" figures are reported for.
   verification_years: [5, 10]    # VM0047 monitoring at most five years apart.
 
 land_at_start:                   # ASSUMED, and it is what makes this a what-if.
@@ -36,9 +36,8 @@ establishment:                   # CITED practices: CPCRI, Package of Practices 
   pre_bearing_years: "5-8"
   milestones:                    # What happens in the field, by month after planting.
     0: "Transplant 12-18-month nursery seedlings (5 or more leaves) into 90 cm pits; shade and irrigation start"
-    6: "First dry season: irrigate every 3-5 days, keep shade; count survivors"
-    12: "Year-1 census: count survivors, cull palms under 20 cm girth"
-    17: "Second dry season begins; palms still pre-bearing (bearing starts at 5-8 years)"
+    3: "End of the first monsoon: seedlings established; keep shade"
+    5: "First dry season begins: irrigate every 3-5 days; palms pre-bearing (bearing starts at 5-8 years)"
 
 biomass:
   equation: das2021_m2           # CHOICE. See docs/CHANGES_FROM_POC.md. Alternatives: prayogo2018, das2021_m3.

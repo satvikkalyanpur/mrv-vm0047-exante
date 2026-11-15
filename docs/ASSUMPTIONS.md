@@ -6,7 +6,7 @@ Everything the result depends on that is not a methodology rule or a published m
 |---|---|---|---|
 | The parcel is fallow, with no woody cover, at the start | 0 % woody cover | Makes the scenario possible at all. The real parcel is an established garden. | A real candidate site, with a 10-year satellite record |
 | Nothing is grown on the land before planting | No displaced production | Raises credits: leakage is zero. On working cropland credits would fall to zero. | Three years of production records for the site |
-| Project start | 1 June 2025 | Only moves the calendar | The actual planting date |
+| Project start | 1 June 2026 (the planting season in which the proof of concept was built) | Only moves the calendar | The actual planting date |
 | Palms on this parcel grow like the Thirthahalli trial palms | Height 7.06 to 9.02 m at age 10 | Probably raises credits: research-station palms are well managed | Field measurement of the stand |
 | Seedling height at planting is ignored | Height starts at 0 | Lowers early credits slightly; CPCRI seedlings are 12 to 18 months old at planting | Measured seedling heights |
 | Height grows linearly from zero | Straight line to age 10 | Lowers early-year credits; no effect on the year-10 total | Repeated height measurements |

@@ -18,10 +18,10 @@
     "buffer_tco2e": 5.8788014383923874,
     "credits_issuable": 43.11121054821085,
     "credits_per_ha_per_year": 3.394583507733137,
-    "as_of": "2026-11-14",
-    "years_elapsed": 1.4537987679671458,
-    "stock_change_to_date_tco2e": 2.412525871742822,
-    "credits_accrued_to_date": 1.910720490420315,
+    "as_of": "2026-11-15",
+    "years_elapsed": 0.45722108145106094,
+    "stock_change_to_date_tco2e": 0.3720737665278013,
+    "credits_accrued_to_date": 0.29468242309001863,
     "credits_issued_to_date": 0.0
   },
   "illustrative_case": {
@@ -43,10 +43,10 @@
     "buffer_tco2e": 8.050691969798464,
     "credits_issuable": 32.20276787919386,
     "credits_per_ha_per_year": 2.535651014109752,
-    "as_of": "2026-11-14",
-    "years_elapsed": 1.4537987679671458,
-    "stock_change_to_date_tco2e": 2.412525871742822,
-    "credits_accrued_to_date": 1.4272503057230534,
+    "as_of": "2026-11-15",
+    "years_elapsed": 0.45722108145106094,
+    "stock_change_to_date_tco2e": 0.3720737665278013,
+    "credits_accrued_to_date": 0.22011884027784726,
     "credits_issued_to_date": 0.0
   },
   "cropland_alternative": {
@@ -87,5 +87,5 @@
       "note": "Arecanut earns nut revenue, so an investment analysis is required. A profitable cash crop is hard to show as dependent on carbon finance."
     }
   ],
-  "ledger_head": "070e1284af7dffeed55f524883617fc195f9fb49c4c001a46221e470e56c7f1a"
+  "ledger_head": "b85fe7bdc185c0de2d356e3b332b026693ef14e07bc4873264f33ddecc7b95f3"
 }

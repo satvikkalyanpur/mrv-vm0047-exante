@@ -2,8 +2,8 @@ cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
 title: "mrv-vm0047-exante: a VM0047 rule engine and ex-ante credit estimator for smallholder agroforestry"
 type: software
-version: 0.2.0
-date-released: 2026-11-14
+version: 0.2.1
+date-released: 2026-11-15
 license: MIT
 repository-code: "https://github.com/satvikkalyanpur/mrv-vm0047-exante"
 authors:

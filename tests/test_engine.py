@@ -238,11 +238,10 @@ def test_run_is_reproducible(result):
 def test_progress_runs_from_planting_to_as_of(result):
     progress = pipeline.progress_to_date(result)
     assert progress.month.iloc[0] == 0 and progress.credits_accrued.iloc[0] == 0
-    assert progress.month.iloc[-1] == 17                       # 1 June 2025 to 14 November 2026
+    assert progress.month.iloc[-1] == 5                        # 1 June 2026 to 15 November 2026
     assert progress.credits_accrued.is_monotonic_increasing
     assert (progress.credits_issued == 0).all()                # first verification is in year 5
-    year_1 = progress[progress.month == 12].iloc[0]
-    assert year_1.stock_change_tco2e == pytest.approx(result.schedule.stock_change_tco2e[1])
+    assert progress.stock_change_tco2e.iloc[-1] < result.schedule.stock_change_tco2e[1]   # less than a year in
 
 
 def test_model_is_below_measured_palms(result):
